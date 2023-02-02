@@ -1,0 +1,44 @@
+{
+    "development": {
+        "username": "root",
+        "password": "Admin@123",
+        "database": "NodeJSTopics",
+        "host": "localhost",
+        "dialect": "mysql",
+        "logging": false,
+        "dialectOptions": {
+            "multipleStatements": true
+        },
+        "define": {
+            "timestamps": false
+        }
+    },
+    "staging": {
+        "username": "root",
+        "password": "Admin@123",
+        "database": "sd",
+        "host": "localhost",
+        "dialect": "mysql",
+        "logging": false,
+        "dialectOptions": {
+            "multipleStatements": true
+        },
+        "define": {
+            "timestamps": false
+        }
+    },
+    "production": {
+        "username": "root",
+        "password": "Admin@123",
+        "database": "sd",
+        "host": "localhost",
+        "dialect": "mysql",
+        "logging": false,
+        "dialectOptions": {
+            "multipleStatements": true
+        },
+        "define": {
+            "timestamps": false
+        }
+    }
+}
